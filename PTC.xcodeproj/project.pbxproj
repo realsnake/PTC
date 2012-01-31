@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F659780B14C2AC750040EB33 /* Pairs.m in Sources */ = {isa = PBXBuildFile; fileRef = F659780A14C2AC750040EB33 /* Pairs.m */; };
 		F697288514BC0F7300212A07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697288414BC0F7300212A07 /* UIKit.framework */; };
 		F697288714BC0F7300212A07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697288614BC0F7300212A07 /* Foundation.framework */; };
 		F697288914BC0F7300212A07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697288814BC0F7300212A07 /* CoreGraphics.framework */; };
@@ -14,23 +15,34 @@
 		F697289114BC0F7300212A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F697289014BC0F7300212A07 /* main.m */; };
 		F697289514BC0F7300212A07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F697289414BC0F7300212A07 /* AppDelegate.m */; };
 		F697289814BC0F7300212A07 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F697289614BC0F7300212A07 /* MainStoryboard.storyboard */; };
-		F697289B14BC0F7300212A07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F697289A14BC0F7300212A07 /* ViewController.m */; };
+		F69728A214BC0F9200212A07 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69728A114BC0F9200212A07 /* CoreData.framework */; };
+		F69728A514BC107600212A07 /* LlkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69728A414BC107600212A07 /* LlkViewController.m */; };
+		F69728A814BC10CE00212A07 /* Llk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F69728A614BC10CE00212A07 /* Llk.xcdatamodeld */; };
+		F6ACD2AB14BE6AC6008150A5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACD2AA14BE6AC6008150A5 /* RootViewController.m */; };
+		F6CAE07314C151FE0031A104 /* Llk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F6CAE07214C151FE0031A104 /* Llk.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F659780914C2AC750040EB33 /* Pairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pairs.h; sourceTree = "<group>"; };
+		F659780A14C2AC750040EB33 /* Pairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pairs.m; sourceTree = "<group>"; };
 		F697288014BC0F7300212A07 /* PTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F697288414BC0F7300212A07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F697288614BC0F7300212A07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F697288814BC0F7300212A07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F697288C14BC0F7300212A07 /* PTC-Info.plist */ = {isa = PBXFileReference; path = "PTC-Info.plist"; sourceTree = "<group>"; };
+		F697288C14BC0F7300212A07 /* PTC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTC-Info.plist"; sourceTree = "<group>"; };
 		F697288E14BC0F7300212A07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F697289014BC0F7300212A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F697289214BC0F7300212A07 /* PTC-Prefix.pch */ = {isa = PBXFileReference; path = "PTC-Prefix.pch"; sourceTree = "<group>"; };
-		F697289314BC0F7300212A07 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F697289214BC0F7300212A07 /* PTC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTC-Prefix.pch"; sourceTree = "<group>"; };
+		F697289314BC0F7300212A07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F697289414BC0F7300212A07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F697289714BC0F7300212A07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F697289914BC0F7300212A07 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		F697289A14BC0F7300212A07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F69728A114BC0F9200212A07 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F69728A314BC107600212A07 /* LlkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlkViewController.h; sourceTree = "<group>"; };
+		F69728A414BC107600212A07 /* LlkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlkViewController.m; sourceTree = "<group>"; };
+		F69728A714BC10CE00212A07 /* Llk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Llk.xcdatamodel; sourceTree = "<group>"; };
+		F6ACD2A914BE6AC6008150A5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F6ACD2AA14BE6AC6008150A5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F6CAE07214C151FE0031A104 /* Llk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Llk.sqlite; path = PTC/Llk.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69728A214BC0F9200212A07 /* CoreData.framework in Frameworks */,
 				F697288514BC0F7300212A07 /* UIKit.framework in Frameworks */,
 				F697288714BC0F7300212A07 /* Foundation.framework in Frameworks */,
 				F697288914BC0F7300212A07 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				F697288A14BC0F7300212A07 /* PTC */,
+				F6ACD2A814BE6A77008150A5 /* Resource */,
 				F697288314BC0F7300212A07 /* Frameworks */,
 				F697288114BC0F7300212A07 /* Products */,
 			);
@@ -67,6 +81,7 @@
 		F697288314BC0F7300212A07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F69728A114BC0F9200212A07 /* CoreData.framework */,
 				F697288414BC0F7300212A07 /* UIKit.framework */,
 				F697288614BC0F7300212A07 /* Foundation.framework */,
 				F697288814BC0F7300212A07 /* CoreGraphics.framework */,
@@ -80,8 +95,10 @@
 				F697289314BC0F7300212A07 /* AppDelegate.h */,
 				F697289414BC0F7300212A07 /* AppDelegate.m */,
 				F697289614BC0F7300212A07 /* MainStoryboard.storyboard */,
-				F697289914BC0F7300212A07 /* ViewController.h */,
-				F697289A14BC0F7300212A07 /* ViewController.m */,
+				F69728A314BC107600212A07 /* LlkViewController.h */,
+				F69728A414BC107600212A07 /* LlkViewController.m */,
+				F6ACD2A914BE6AC6008150A5 /* RootViewController.h */,
+				F6ACD2AA14BE6AC6008150A5 /* RootViewController.m */,
 				F697288B14BC0F7300212A07 /* Supporting Files */,
 			);
 			path = PTC;
@@ -96,6 +113,26 @@
 				F697289214BC0F7300212A07 /* PTC-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6ACD2A714BE6A55008150A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			path = PTC;
+			sourceTree = "<group>";
+		};
+		F6ACD2A814BE6A77008150A5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F69728A614BC10CE00212A07 /* Llk.xcdatamodeld */,
+				F659780914C2AC750040EB33 /* Pairs.h */,
+				F659780A14C2AC750040EB33 /* Pairs.m */,
+				F6CAE07214C151FE0031A104 /* Llk.sqlite */,
+				F6ACD2A714BE6A55008150A5 /* Images */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +187,7 @@
 			files = (
 				F697288F14BC0F7300212A07 /* InfoPlist.strings in Resources */,
 				F697289814BC0F7300212A07 /* MainStoryboard.storyboard in Resources */,
+				F6CAE07314C151FE0031A104 /* Llk.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +200,10 @@
 			files = (
 				F697289114BC0F7300212A07 /* main.m in Sources */,
 				F697289514BC0F7300212A07 /* AppDelegate.m in Sources */,
-				F697289B14BC0F7300212A07 /* ViewController.m in Sources */,
+				F69728A514BC107600212A07 /* LlkViewController.m in Sources */,
+				F69728A814BC10CE00212A07 /* Llk.xcdatamodeld in Sources */,
+				F6ACD2AB14BE6AC6008150A5 /* RootViewController.m in Sources */,
+				F659780B14C2AC750040EB33 /* Pairs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +315,23 @@
 				F69728A014BC0F7300212A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F69728A614BC10CE00212A07 /* Llk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F69728A714BC10CE00212A07 /* Llk.xcdatamodel */,
+			);
+			currentVersion = F69728A714BC10CE00212A07 /* Llk.xcdatamodel */;
+			name = Llk.xcdatamodeld;
+			path = PTC/Llk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F697287714BC0F7300212A07 /* Project object */;
 }
