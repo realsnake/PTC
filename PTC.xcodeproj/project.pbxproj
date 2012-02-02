@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60F3AAF14DA213700F34033 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = F60F3AAE14DA213700F34033 /* Particle.png */; };
 		F659780B14C2AC750040EB33 /* Pairs.m in Sources */ = {isa = PBXBuildFile; fileRef = F659780A14C2AC750040EB33 /* Pairs.m */; };
 		F697288514BC0F7300212A07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697288414BC0F7300212A07 /* UIKit.framework */; };
 		F697288714BC0F7300212A07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697288614BC0F7300212A07 /* Foundation.framework */; };
@@ -18,11 +19,15 @@
 		F69728A214BC0F9200212A07 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69728A114BC0F9200212A07 /* CoreData.framework */; };
 		F69728A514BC107600212A07 /* LlkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69728A414BC107600212A07 /* LlkViewController.m */; };
 		F69728A814BC10CE00212A07 /* Llk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F69728A614BC10CE00212A07 /* Llk.xcdatamodeld */; };
+		F6A974E514D7BFE300DFF453 /* MiaoHongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A974E414D7BFE300DFF453 /* MiaoHongViewController.m */; };
+		F6A974E814D7C10100DFF453 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A974E714D7C10100DFF453 /* OpenGLES.framework */; };
+		F6A974EC14D7EA3200DFF453 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A974EB14D7EA3200DFF453 /* GLKit.framework */; };
 		F6ACD2AB14BE6AC6008150A5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ACD2AA14BE6AC6008150A5 /* RootViewController.m */; };
 		F6CAE07314C151FE0031A104 /* Llk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F6CAE07214C151FE0031A104 /* Llk.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60F3AAE14DA213700F34033 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
 		F659780914C2AC750040EB33 /* Pairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pairs.h; sourceTree = "<group>"; };
 		F659780A14C2AC750040EB33 /* Pairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pairs.m; sourceTree = "<group>"; };
 		F697288014BC0F7300212A07 /* PTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +45,10 @@
 		F69728A314BC107600212A07 /* LlkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LlkViewController.h; sourceTree = "<group>"; };
 		F69728A414BC107600212A07 /* LlkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LlkViewController.m; sourceTree = "<group>"; };
 		F69728A714BC10CE00212A07 /* Llk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Llk.xcdatamodel; sourceTree = "<group>"; };
+		F6A974E314D7BFE300DFF453 /* MiaoHongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiaoHongViewController.h; sourceTree = "<group>"; };
+		F6A974E414D7BFE300DFF453 /* MiaoHongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiaoHongViewController.m; sourceTree = "<group>"; };
+		F6A974E714D7C10100DFF453 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F6A974EB14D7EA3200DFF453 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F6ACD2A914BE6AC6008150A5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F6ACD2AA14BE6AC6008150A5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F6CAE07214C151FE0031A104 /* Llk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Llk.sqlite; path = PTC/Llk.sqlite; sourceTree = "<group>"; };
@@ -50,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A974EC14D7EA3200DFF453 /* GLKit.framework in Frameworks */,
+				F6A974E814D7C10100DFF453 /* OpenGLES.framework in Frameworks */,
 				F69728A214BC0F9200212A07 /* CoreData.framework in Frameworks */,
 				F697288514BC0F7300212A07 /* UIKit.framework in Frameworks */,
 				F697288714BC0F7300212A07 /* Foundation.framework in Frameworks */,
@@ -81,6 +92,8 @@
 		F697288314BC0F7300212A07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6A974EB14D7EA3200DFF453 /* GLKit.framework */,
+				F6A974E714D7C10100DFF453 /* OpenGLES.framework */,
 				F69728A114BC0F9200212A07 /* CoreData.framework */,
 				F697288414BC0F7300212A07 /* UIKit.framework */,
 				F697288614BC0F7300212A07 /* Foundation.framework */,
@@ -99,6 +112,8 @@
 				F69728A414BC107600212A07 /* LlkViewController.m */,
 				F6ACD2A914BE6AC6008150A5 /* RootViewController.h */,
 				F6ACD2AA14BE6AC6008150A5 /* RootViewController.m */,
+				F6A974E314D7BFE300DFF453 /* MiaoHongViewController.h */,
+				F6A974E414D7BFE300DFF453 /* MiaoHongViewController.m */,
 				F697288B14BC0F7300212A07 /* Supporting Files */,
 			);
 			path = PTC;
@@ -107,6 +122,7 @@
 		F697288B14BC0F7300212A07 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F60F3AAE14DA213700F34033 /* Particle.png */,
 				F697288C14BC0F7300212A07 /* PTC-Info.plist */,
 				F697288D14BC0F7300212A07 /* InfoPlist.strings */,
 				F697289014BC0F7300212A07 /* main.m */,
@@ -188,6 +204,7 @@
 				F697288F14BC0F7300212A07 /* InfoPlist.strings in Resources */,
 				F697289814BC0F7300212A07 /* MainStoryboard.storyboard in Resources */,
 				F6CAE07314C151FE0031A104 /* Llk.sqlite in Resources */,
+				F60F3AAF14DA213700F34033 /* Particle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +221,7 @@
 				F69728A814BC10CE00212A07 /* Llk.xcdatamodeld in Sources */,
 				F6ACD2AB14BE6AC6008150A5 /* RootViewController.m in Sources */,
 				F659780B14C2AC750040EB33 /* Pairs.m in Sources */,
+				F6A974E514D7BFE300DFF453 /* MiaoHongViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
